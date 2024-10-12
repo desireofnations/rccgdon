@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/logo1.png">
+    <title>About Us - Church Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+            <img src="images/logo.png" alt="Church Logo" class="logo">
+        </a>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">&#9776;</div>
+        <nav id="navbar">
+            <span class="close-icon" onclick="toggleNav()">✖</span> <!-- Close icon -->
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="watch-live.html">Watch-live</a></li>
+                <li><a href="giving.html">Giving</a></li>
+                <li><a href="prayer.html">Prayer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="images/about-hero.jpg" alt="About Us">
+                <div class="overlay"></div> <!-- Add this line -->
+                <div class="text">
+                    <h1>About Us</h1>
+                    <p>Discover the mission and values that guide our community.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="welcome-message">
+        <h2>Our Church</h2>
+        <p>Our church was established to foster community and spiritual growth. We believe in the power of faith and are dedicated to helping others find peace and purpose through Christ.</p>
+    </div>
+
+    <div class="latest-events">
+        <h2>Our Mission & Vision</h2>
+        <ul>
+            <li>1. To make heaven.</li>
+            <li>2. To take as many people with us.</li>
+            <li>3. To have a member of RCCG in every family of all nations.</li>
+            <li>4. To accomplish No. 1 above, holiness will be our lifestyle.</li>
+            <li>5. To accomplish No. 2 and 3 above, we will plant churches within five minutes walking distance in every city and town of developing countries and within five minutes driving distance in every city and town of developed countries.</li>
+            <li>6. We will pursue these objectives until every Nation in the world is reached for the Lord Jesus Christ.</li>
+        </ul>
+    </div>
+
+    <div class="latest-events">
+        <h2>RCCG Anthem</h2>
+        <ul>
+            <li>1. We are Redeemite</li>
+            <li>United in love</li>
+            <li>Jesus is for Us</li>
+            <li>We shall conquer</li>
+            <li>2. We are Together ....</li>
+            <li>3. We are Victorious ....</li>
+            <li>4. Convenant children ....</li>
+            <li>Chorous: Halleluyah, Halleluyah, Halleluyah, Halleluyah /2x</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-services">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="watch-live.html">Watch-live</a></li>
+                    <li><a href="giving.html">Giving</a></li>
+                    <li><a href="prayer.html">Prayer</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="footer-weekly-services">
+                <h3>Weekly Services</h3>
+                <ul>
+                    <li>Sunday: Workers Meeting | 7:00 AM</li>
+                    <li>Sunday: Main Service | 8:00 AM</li>
+                    <li>Tuesday: Digging Deep | 5:30 PM</li>
+                    <li>Thursday: Faith Clinic | 5:30 PM</li>
+                    <li>Saturday: Workers Prep | 4:00 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        <p>&copy; 2024 RCCG - Desire of Nation</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

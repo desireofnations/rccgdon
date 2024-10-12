@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/logo1.png">
+    <title>Church Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body>
+    <div id="preloader">
+        <img src="images/logo1.png" alt="Church Logo" id="logo"> <!-- Replace with your logo -->
+    </div>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+            <img src="images/logo.png" alt="Church Logo" class="logo">
+            </a>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">&#9776;</div>
+        <nav id="navbar">
+            <span class="close-icon" onclick="toggleNav()">✖</span> <!-- Close icon -->
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="watch-live.html">Watch-live</a></li>
+                <li><a href="giving.html">Giving</a></li>
+                <li><a href="prayer.html">Prayer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="images/slide1.jpg" alt="Slide 1">
+                <div class="overlay"></div> <!-- Add this line -->
+                <div class="text">
+                    <h1>Welcome to Desire of Nations</h1>
+                    <p>A place you can call home,Come Join us for uplifting services.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/slide2.jpg" alt="Slide 2">
+                <div class="overlay"></div> <!-- Add this line -->
+                <div class="text">
+                    <h1>Communion and Fellowship</h1>
+                    <p>A community to grow with each other in faith.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/slide3.jpg" alt="Slide 3">
+                <div class="overlay"></div> <!-- Add this line -->
+                <div class="text">
+                    <h1>Join Us Live</h1>
+                    <p>Also come experience our services online as you will be blessed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <div class="welcome-message">
+        <h2>Welcome to Our Church Community</h2>
+        <p>We are glad you're here! Join us for our services and events.</p>
+        <button class="btn" onclick="location.href='watch-live.html'">Join Us Live</button>
+    </div>
+
+    <div class="latest-events">
+        <h2>Upcoming Events</h2>
+        <div class="event-card">
+            <img src="images/event1.jpg" alt="Event 1" class="event-image">
+            <h3>Fyb Sunday Thanksgiving and Sendforth</h3>
+            <button class="btn" onclick="location.href='events.html'">View Events</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-services">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="watch-live.html">Watch-live</a></li>
+                    <li><a href="giving.html">Giving</a></li>
+                    <li><a href="prayer.html">Prayer</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="footer-weekly-services">
+                <h3>Weekly Services</h3>
+                <ul>
+                    <li>Sunday: Workers Meeting | 7:00 AM</li>
+                    <li>Sunday: Main Service | 8:00 AM</li>
+                    <li>Tuesday: Digging Deep | 5:30 PM</li>
+                    <li>Thursday: Faith Clinic | 5:30 PM</li>
+                    <li>Saturday: Workers Prep | 4:00 PM</li>
+                </ul>
+            </div>
+        </div>
+            <div class="social-media">
+              <a href="https://www.facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.youtube.com" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        <p>&copy; 2024 RCCG - Desire of Nation</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

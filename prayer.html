@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/logo1.png">
+    <title>Prayer - Church Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+            <img src="images/logo.png" alt="Church Logo" class="logo">
+        </a>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">&#9776;</div>
+        <nav id="navbar">
+            <span class="close-icon" onclick="toggleNav()">✖</span> <!-- Close icon -->
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="watch-live.html">Watch-live</a></li>
+                <li><a href="giving.html">Giving</a></li>
+                <li><a href="prayer.html">Prayer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="images/prayer-hero.jpg" alt="Prayer">
+                <div class="overlay"></div> <!-- Add this line -->
+                <div class="text">
+                    <h1>Prayer Requests</h1>
+                    <p>We are here to pray for you!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prayer-info">
+        <h2>Submit Your Prayer Requests</h2>
+        <p>Share your prayer requests with us, and we will pray for you. Your requests are confidential.</p>
+
+        <form class="prayer-form" action="#" method="post">
+            <input type="text" placeholder="Your Name (optional)">
+            <textarea placeholder="Your Prayer Request" required></textarea>
+            <button class="btn" type="submit">Submit Prayer Request</button>
+        </form>
+
+        <div class="prayer-hotline">
+            <h3>Prayer Hotline</h3>
+            <p>If you need immediate prayer support, text us at:</p>
+            <p><strong>+234 8105946195</strong></p>
+            <p>Available for text messages only.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-services">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="watch-live.html">Watch-live</a></li>
+                    <li><a href="giving.html">Giving</a></li>
+                    <li><a href="prayer.html">Prayer</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="footer-weekly-services">
+                <h3>Weekly Services</h3>
+                <ul>
+                    <li>Sunday: Workers Meeting | 7:00 AM</li>
+                    <li>Sunday: Main Service | 8:00 AM</li>
+                    <li>Tuesday: Digging Deep | 5:30 PM</li>
+                    <li>Thursday: Faith Clinic | 5:30 PM</li>
+                    <li>Saturday: Workers Prep | 4:00 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+          <p>&copy; 2024 RCCG - Desire of Nation</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
